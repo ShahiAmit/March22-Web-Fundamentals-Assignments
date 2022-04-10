@@ -1,0 +1,10 @@
+let a = prompt("Enter Value of a")
+let b = prompt("Enter Value of b")
+var temp = a
+console.log(`value of a = ${a}`)
+console.log(`value of b = ${b}`)
+temp = a
+a=b
+b=temp
+console.log(`after swap value of a = ${a}`)
+console.log(`after swap value of b = ${b}`)

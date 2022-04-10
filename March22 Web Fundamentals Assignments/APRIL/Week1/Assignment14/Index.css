@@ -1,0 +1,29 @@
+.red{
+    background: red;
+    
+}
+.blue{
+    background: blue;
+    
+}
+.violet{
+    background: violet;
+    
+}
+.green{
+    background: green;
+}
+.orange{
+    background: orange;
+    
+}
+.myClass{
+    font-style: italic;
+    color: white;
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+h1{
+    color : brown;
+    font-size: 40px;
+}
