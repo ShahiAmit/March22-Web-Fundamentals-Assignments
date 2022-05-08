@@ -9,7 +9,7 @@ if(!params.has('q')) {
 const search_query = params.get('q');
 console.log(search_query);
 
-fetch('https://youtube.googleapis.com/youtube/v3/search?part=snippet&maxResults=25&q='+search_query+'&type=video&key=AIzaSyAdWaVR_CQXV4SELrqkK6_qbtvsepjE03o')
+fetch('https://youtube.googleapis.com/youtube/v3/search?part=snippet&maxResults=25&q='+search_query+'&type=video&key=AIzaSyB2_GmP5OSZRbmM4_9uXh3rF6lcUOHt7lI')
 .then((res) => {
   return res.json();
 }).then((data) => {
