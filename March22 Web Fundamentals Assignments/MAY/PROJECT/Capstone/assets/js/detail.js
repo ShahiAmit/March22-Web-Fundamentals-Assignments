@@ -8,7 +8,7 @@ if(!params.has('id')) {
 
 const video_id = params.get('id');
 
-fetch('https://youtube.googleapis.com/youtube/v3/videos?part=snippet%2CcontentDetails%2Cstatistics%2Cplayer&id='+video_id+'&key=AIzaSyAdWaVR_CQXV4SELrqkK6_qbtvsepjE03o')
+fetch('https://youtube.googleapis.com/youtube/v3/videos?part=snippet%2CcontentDetails%2Cstatistics%2Cplayer&id='+video_id+'&key=AIzaSyB2_GmP5OSZRbmM4_9uXh3rF6lcUOHt7lI')
 .then((res) => {
   return res.json();
 }).then((data) => {
