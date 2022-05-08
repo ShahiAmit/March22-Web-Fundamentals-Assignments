@@ -1,4 +1,4 @@
-fetch('https://youtube.googleapis.com/youtube/v3/videos?part=snippet%2CcontentDetails%2Cstatistics&chart=mostPopular&maxResults=24&key=AIzaSyAdWaVR_CQXV4SELrqkK6_qbtvsepjE03o')
+fetch('https://youtube.googleapis.com/youtube/v3/videos?part=snippet%2CcontentDetails%2Cstatistics&chart=mostPopular&maxResults=24&key=AIzaSyB2_GmP5OSZRbmM4_9uXh3rF6lcUOHt7lI')
 .then((res) => {
   return res.json();
 }).then((data) => {
